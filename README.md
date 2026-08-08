@@ -135,7 +135,7 @@ Le site est conçu pour fonctionner sur :
 
 ## 📄 Licence
 
-Ce projet est développé à des fins de présentation et de démonstration.
+Ce projet est un projet professionnel , prière de ne pas copier ce repo .
 
 ---
 

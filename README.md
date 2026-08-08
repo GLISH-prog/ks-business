@@ -141,6 +141,6 @@ Ce projet est un projet professionnel , prière de ne pas copier ce repo .
 
 ## 👨‍💻 Auteur
 
-**Glish**
+**KITSORO Shekinah Louissel1er**
 
-Développeur Web
+Développeur Web Junior 

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact VIP — KS Business</title>
+  <meta name="description" content="Contactez KS Business pour réserver un service VIP ou demander un rendez-vous privé. Ligne directe et email premium.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <a href="index.html" class="nav__logo"><span class="logo-badge"><img src="assets/logo-icon.png" alt="KS Business"></span> KS <strong>Business</strong></a>
+    <nav class="nav__links" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <div class="nav__item--dropdown">
+        <a href="index.html#services">Services</a>
+        <div class="nav__dropdown">
+          <a href="aeroportuaire.html">Conciergerie Aéroportuaire</a>
+          <a href="immobiliere.html">Conciergerie Immobilière</a>
+          <a href="entreprise.html">Conciergerie d'Entreprise</a>
+          <a href="bancaire.html">Conciergerie Bancaire</a>
+        </div>
+      </div>
+      <a href="partenaires.html">Partenaires</a>
+      <a href="contact.html" class="is-active">Contact</a>
+    </nav>
+    <a href="contact.html" class="nav__cta">Réserver un service VIP</a>
+    <button class="nav__burger" aria-label="Ouvrir le menu"><span></span><span></span><span></span></button>
+  </header>
+
+  <div class="nav__mobile">
+    <a href="index.html">Accueil</a>
+    <a href="aeroportuaire.html">Aéroportuaire</a>
+    <a href="immobiliere.html">Immobilière</a>
+    <a href="entreprise.html">Entreprise</a>
+    <a href="bancaire.html">Bancaire</a>
+    <a href="partenaires.html">Partenaires</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" class="nav__cta">Réserver un service VIP</a>
+  </div>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero hero--page" style="min-height:64vh;">
+    <div class="hero__bg"></div>
+    <div class="hero__grain"></div>
+    <div class="wrap hero__content">
+      <p class="breadcrumb"><a href="index.html">Accueil</a> <span class="sep">/</span> Contact</p>
+      <p class="eyebrow">Contact VIP</p>
+      <h1>Parlons de votre prochaine exigence.</h1>
+      <p class="hero__lead">Formulaire simple, ligne directe et email premium — choisissez le canal qui vous convient, nous répondons sous 24h.</p>
+    </div>
+  </section>
+
+  <!-- ============ FORMULAIRE + COORDONNEES ============ -->
+  <section class="section">
+    <div class="wrap grid-2">
+
+      <!-- Formulaire -->
+      <div class="reveal">
+        <p class="eyebrow">Demande de rendez-vous privé</p>
+        <h2>Envoyez-nous votre demande.</h2>
+        <p style="margin-top:1.2rem;">Un conseiller dédié étudie votre demande et revient vers vous personnellement, en toute confidentialité.</p>
+
+        <form class="form-lux" style="margin-top:2.2rem;">
+          <div class="form-row">
+            <div class="field">
+              <label for="nom-c">Nom complet</label>
+              <input id="nom-c" type="text" name="nom" placeholder="Votre nom" required>
+            </div>
+            <div class="field">
+              <label for="email-c">Email</label>
+              <input id="email-c" type="email" name="email" placeholder="vous@exemple.com" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="telephone-c">Téléphone</label>
+              <input id="telephone-c" type="tel" name="telephone" placeholder="+242 04 479 10 38">
+            </div>
+            <div class="field">
+              <label for="service-c">Service souhaité</label>
+              <select id="service-c" name="service">
+                <option>Conciergerie Aéroportuaire</option>
+                <option>Conciergerie Immobilière</option>
+                <option>Conciergerie d'Entreprise</option>
+                <option>Conciergerie Bancaire</option>
+                <option>Autre demande</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="message-c">Votre message</label>
+            <textarea id="message-c" name="message" placeholder="Décrivez votre besoin en quelques mots"></textarea>
+          </div>
+          <button type="submit" class="btn btn-gold" style="align-self:flex-start;">Envoyer ma demande</button>
+          <p class="form-note">En soumettant ce formulaire, vous acceptez d'être recontacté par un conseiller KS Business.</p>
+        </form>
+        <div class="form-success" role="status">Merci — votre demande a bien été transmise. Un conseiller KS Business vous recontacte sous 24h.</div>
+      </div>
+
+      <!-- Coordonnees -->
+      <div class="reveal reveal-delay-2">
+        <div class="about-frame" style="aspect-ratio:auto; padding:2.6rem; display:block;">
+          <p class="eyebrow">Nous joindre directement</p>
+
+          <div class="contact-info-item" style="margin-top:1.8rem;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.5 2.1L8 9.6a16 16 0 0 0 6 6l1.1-1.1a2 2 0 0 1 2.1-.5c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.7 2.1z"/></svg>
+            <div><b>Ligne directe</b> +242 04 479 10 38</div>
+          </div>
+
+          <div class="contact-info-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 4h16v16H4z"/><path d="m4 6 8 7 8-7"/></svg>
+            <div><b>Email premium</b> info@ks-business.net</div>
+          </div>
+
+          <div class="contact-info-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+            <div><b>Disponibilité</b> Assistance 24/7 pour nos clients VIP</div>
+          </div>
+
+          <div class="contact-info-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.4"/></svg>
+            <div><b>Adresse</b> 13 Av. Simon Kimbang, Makélékélé — Brazzaville, République du Congo</div>
+          </div>
+
+          <div class="gold-divider" style="margin:2rem 0 1.6rem;"><span></span></div>
+
+          <p style="font-size:0.88rem; margin-bottom:1.2rem;">Vous préférez planifier vous-même votre rendez-vous ?</p>
+          <a href="#" class="btn btn-outline">Demander un rendez-vous privé</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="wrap footer__top">
+      <div class="footer__brand">
+        <a href="index.html" class="nav__logo"><span class="logo-badge"><img src="assets/logo-icon.png" alt="KS Business"></span> KS <strong>Business</strong></a>
+        <p>Conciergerie privée et corporate. L'excellence est un standard, pas une option.</p>
+        <div class="lang-switch" style="margin-top:1.4rem;">
+          <button type="button" class="is-active">FR</button><span>/</span><button type="button">EN</button>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="aeroportuaire.html">Aéroportuaire</a></li>
+          <li><a href="immobiliere.html">Immobilière</a></li>
+          <li><a href="entreprise.html">Entreprise</a></li>
+          <li><a href="bancaire.html">Bancaire</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Entreprise</h4>
+        <ul>
+          <li><a href="index.html#apropos">À propos</a></li>
+          <li><a href="partenaires.html">Partenaires</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Restez informés</h4>
+        <p style="font-size:0.85rem; margin-bottom:1rem;">Actualités luxe, voyage &amp; immobilier.</p>
+        <form class="footer__newsletter">
+          <input type="email" placeholder="Votre email" required aria-label="Votre email">
+          <button type="submit">S'abonner</button>
+        </form>
+      </div>
+    </div>
+    <div class="wrap footer__bottom">
+      <span>© <span data-year>2026</span> KS Business — Tous droits réservés.</span>
+      <div class="footer__socials">
+        <a href="https://www.facebook.com/KSBusinessCG" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 8h-2a2 2 0 0 0-2 2v10M8 13h6"/><path d="M15 3H9a6 6 0 0 0-6 6v6a6 6 0 0 0 6 6h6a6 6 0 0 0 6-6V9a6 6 0 0 0-6-6z"/></svg></a>
+        <a href="https://www.instagram.com/Ksbusiness_cg" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+        <a href="https://www.linkedin.com/company/ks-business-congo" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 10v7M7 7v.01M11 17v-4a2 2 0 0 1 4 0v4M11 13v4"/></svg></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
